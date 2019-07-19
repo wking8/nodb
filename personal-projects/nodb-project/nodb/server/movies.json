@@ -68,6 +68,20 @@
         "director": "Denis Villeneuve",
         "releaseDate": 2017,
         "awesome": true
+    },
+    {
+        "id": 11,
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "releaseDate": 1994,
+        "awesome": true
+    },
+    {
+        "id": 12,
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "releaseDate": 1994,
+        "awesome": true
     }
 
 ]

@@ -11,12 +11,30 @@ class App extends Component {
     super()
     this.state = {
       movieArr: [],
-      showAdd: false
+      showForm: false
     }
   }
-  AddTitle(body) {
-    axios.post('/api/movies', body).then(res => {
-      this.setState({ movieArr: res.data })
+  addTitle(body) {
+    axios.post('/api/movies', body)
+      .then(res => {
+        this.setState({ movieArr: res.data })
+      })
+  }
+  deleteTitle(id) {
+    axios.delete(`/api/movies/${id}`)
+      .then(res => {
+        this.setState({ movieArr: res.data })
+      })
+  }
+  editTitle(id, body) {
+    axios.put(`/api/movies/${id}`, body)
+      .then(res => {
+        this.setState({ movieArr: res.data })
+      })
+  }
+  toggleForm = () => {
+    this.setState({
+      showForm: !this.state.showForm
     })
   }
   componentDidMount() {
@@ -30,12 +48,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header showForm={this.toggleForm} />
+        {this.state.showForm ? (<Form />) : (null)}
         <AllTitles movieArr={this.state.movieArr} />
-        {this.state.showAdd ?
-          (<Form />)
-          :
-          (null)}
         <Footer />
       </div>
     )
