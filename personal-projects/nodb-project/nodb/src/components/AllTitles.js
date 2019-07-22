@@ -4,7 +4,18 @@ import MovieCard from './MovieCard'
 export default class AllTitles extends Component {
     render() {
         const mappedMovies = this.props.movieArr.map(element => (
-            <MovieCard key={element.id} title={element.title}/>
+            <MovieCard
+                deleteTitle={this.props.deleteTitle}
+                key={element.id}
+                title={element.title}
+                director={element.director}
+                releaseDate={element.releaseDate}
+                image={element.image}
+                id={element.id}
+                editTitle={this.props.editTitle}
+                movie={element}
+            />
+
         ))
         return (
             <div className='cards'>

@@ -14,19 +14,19 @@ class App extends Component {
       showForm: false
     }
   }
-  addTitle(body) {
+  addTitle = (body) => {
     axios.post('/api/movies', body)
       .then(res => {
-        this.setState({ movieArr: res.data })
+        this.setState({ movieArr: res.data, showForm: false })
       })
   }
-  deleteTitle(id) {
+  deleteTitle = (id) => {
     axios.delete(`/api/movies/${id}`)
       .then(res => {
         this.setState({ movieArr: res.data })
       })
   }
-  editTitle(id, body) {
+  editTitle = (id, body) => {
     axios.put(`/api/movies/${id}`, body)
       .then(res => {
         this.setState({ movieArr: res.data })
@@ -49,8 +49,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header showForm={this.toggleForm} />
-        {this.state.showForm ? (<Form />) : (null)}
-        <AllTitles movieArr={this.state.movieArr} />
+        {this.state.showForm ? (<Form addTitle={this.addTitle} />) : (null)}
+        <AllTitles
+          movieArr={this.state.movieArr}
+          deleteTitle={this.deleteTitle}
+          editTitle={this.editTitle}
+        />
         <Footer />
       </div>
     )

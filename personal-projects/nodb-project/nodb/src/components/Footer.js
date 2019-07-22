@@ -1,7 +1,17 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export default function Footer() {
-    return (
-        <div></div>
-    )
+export default class Footer extends Component {
+    constructor() {
+        super()
+        this.state = {
+            quote: ''
+        }
+    }
+    render() {
+        return (
+            <div>
+                    
+            </div>
+                )
+            }
 }

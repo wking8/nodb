@@ -23,7 +23,8 @@
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  color: rgb(41, 63, 63)
+  color: rgb(41, 63, 63);
+  padding-bottom: 15px;
 }
 .movie-card {
   width: 30%;
@@ -32,5 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-bottom: 15px;  
 }
+
