@@ -9,7 +9,7 @@ export default class MovieCard extends Component {
             title: this.props.title,
             director: this.props.director,
             releaseDate: this.props.releaseDate,
-            image: ''
+            image: this.props.image
         }
     }
     handleChangeTitle = (event) => {
@@ -33,7 +33,7 @@ export default class MovieCard extends Component {
         console.log(this.props)
         return (
             <section className='movie-card'>
-                <p>
+                {/* <p>
                     {this.props.title}
                 </p>
                 <p>
@@ -41,7 +41,7 @@ export default class MovieCard extends Component {
                 </p>
                 <p>
                     {this.props.releaseDate}
-                </p>
+                </p> */}
                 <img src={this.props.image} alt="" />
 
                 {this.state.editing ?
@@ -51,7 +51,7 @@ export default class MovieCard extends Component {
                         <input type="text" value={this.state.releaseDate} onChange={this.handleChangeReleaseDate} placeholder='Release Date' /><br />
                         <input type="text" value={this.state.image} onChange={this.handleChangeImage} placeholder='Image' />
                         <button
-                            onClick={() => {this.props.editTitle(this.props.id, this.state); this.toggleEdit()}}>
+                            onClick={() => { this.props.editTitle(this.props.id, this.state); this.toggleEdit() }}>
                             Save
                         </button>
                     </div>

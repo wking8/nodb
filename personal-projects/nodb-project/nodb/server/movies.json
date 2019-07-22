@@ -4,84 +4,96 @@
         "title": "There will be Blood",
         "director": "Paul Thomas Anderson",
         "releaseDate": 2007,
-        "awesome": true
+        "awesome": true,
+        "image": "https://abelflorit.files.wordpress.com/2013/08/cartell_there-will-be-blood.png"
     },
     {
         "id": 2,
         "title": "Master and Commander",
         "director": "Peter Weir",
         "releaseDate": 2003,
-        "awesome": true
+        "awesome": true,
+        "image": "https://lh3.googleusercontent.com/RYl3gK99nota90COAg-K5A9giO5dB7VwKxZBHDRcvbTy33IKjwGN8NFBCcrd2fdU0Qf3=w200-h300-rw"
     },
     {
         "id": 3,
         "title": "Vanilla Sky",
         "director": "Cameron Crowe",
         "releaseDate": 2001,
-        "awesome": true
+        "awesome": true,
+        "image": "https://cdn.shopify.com/s/files/1/1083/5290/products/Vanilla_Sky_Movie_Poster_27x40_1024x1024.jpg?v=1454460730"
     },
     {
         "id": 4,
         "title": "It's All Gone Pete Tong",
         "director": "Michael Dowse",
         "releaseDate": 2005,
-        "awesome": true
+        "awesome": true,
+        "image": "https://fffmovieposters.com/wp-content/uploads/73996.jpg"
     },
     {
         "id": 5,
         "title": "Braveheart",
         "director": "Mel Gibson",
         "releaseDate": 1995,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BMzkzMmU0YTYtOWM3My00YzBmLWI0YzctOGYyNTkwMWE5MTJkXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 6,
         "title": "Amelie",
         "director": "Jean-Pierre Jeunet",
         "releaseDate": 2001,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BNDg4NjM1YjMtYmNhZC00MjM0LWFiZmYtNGY1YjA3MzZmODc5XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 7,
         "title": "The Crow",
         "director": "Alex Proyas",
         "releaseDate": 1994,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BM2Y4ZGVhZjItNjU0OC00MDk1LWI4ZTktYTgwMWJkNDE5OTcxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 8,
         "title": "The Before Trilogy",
         "director": "Richard Linklater",
         "releaseDate": 2018,
-        "awesome": true
+        "awesome": true,
+        "image": "https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/Criterion-Collection-The-Before-Trilogy.jpg"
     },
     {
         "id": 9,
         "title": "Drive",
         "director": "Nicolas Winding Refn",
         "releaseDate": 2011,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGdeQXVyNjQ1MTMzMDQ@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 10,
         "title": "Bladerunner 2049",
         "director": "Denis Villeneuve",
         "releaseDate": 2017,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 11,
         "title": "The Shawshank Redemption",
         "director": "Frank Darabont",
         "releaseDate": 1994,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
     {
         "id": 12,
         "title": "Arrival",
         "director": "Denis Villeneuve",
         "releaseDate": 2016,
-        "awesome": true
+        "awesome": true,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_UX182_CR0,0,182,268_AL_.jpg"
     }
 
 ]
