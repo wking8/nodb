@@ -19,6 +19,9 @@ class App extends Component {
       .then(res => {
         this.setState({ movieArr: res.data, showForm: false })
       })
+      .catch(error => (
+        alert(error)
+      ))
   }
   deleteTitle = (id) => {
     axios.delete(`/api/movies/${id}`)
@@ -31,6 +34,9 @@ class App extends Component {
       .then(res => {
         this.setState({ movieArr: res.data })
       })
+      .catch(error => (
+        console.log(error)
+      ))
   }
   toggleForm = () => {
     this.setState({

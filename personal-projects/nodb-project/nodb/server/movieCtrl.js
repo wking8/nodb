@@ -1,7 +1,7 @@
 // Importing movies JSON object
 const movies = require('./movies.json')
 
-let id = 12
+let id = 13
 
 module.exports = {
     // Show entire movie array

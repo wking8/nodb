@@ -6,13 +6,13 @@ export default class AllTitles extends Component {
         const mappedMovies = this.props.movieArr.map(element => (
             <MovieCard
                 deleteTitle={this.props.deleteTitle}
+                editTitle={this.props.editTitle}
                 key={element.id}
                 title={element.title}
                 director={element.director}
                 releaseDate={element.releaseDate}
                 image={element.image}
                 id={element.id}
-                editTitle={this.props.editTitle}
                 movie={element}
             />
 
