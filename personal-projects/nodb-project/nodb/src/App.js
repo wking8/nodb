@@ -35,7 +35,7 @@ class App extends Component {
         this.setState({ movieArr: res.data })
       })
       .catch(error => (
-        console.log(error)
+        alert(error)
       ))
   }
   toggleForm = () => {

@@ -16,7 +16,7 @@ export default class Form extends Component {
     handleAddDirector = (event) => {
         this.setState({ director: event.target.value })
     }
-    handleaddReleaseDate = (event) => {
+    handleAddReleaseDate = (event) => {
         this.setState({ releaseDate: event.target.value })
     }
     handleAddImage = (event) => {
@@ -27,7 +27,7 @@ export default class Form extends Component {
             <div className='input-boxes'>
                 <input type="text" value={this.state.value} onChange={this.handleAddTitle} placeholder='Title' /><br />
                 <input type="text" value={this.state.value} onChange={this.handleAddDirector} placeholder='Director' /><br />
-                <input type="text" value={this.state.value} onChange={this.handleaddReleaseDate} placeholder='Release Date' /><br />
+                <input type="text" value={this.state.value} onChange={this.handleAddReleaseDate} placeholder='Release Date' /><br />
                 <input type="text" value={this.state.value} onChange={this.handleAddImage} placeholder='Image' />
                 <button
                     onClick={() => this.props.addTitle(this.state)}
